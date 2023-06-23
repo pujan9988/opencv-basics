@@ -2,17 +2,17 @@
 
 import cv2
 # to read images imread is used and it takes path as an argument
-# img = cv2.imread("images/cat.png")
+img = cv2.imread("images/cat.png")
 
 # # to show the images, imshow takes two arguments name of the output to display and the image
-# cv2.imshow("Cat Image",img)
+cv2.imshow("Cat Image",img)
 
 # #to create a delay and 0 means infinite time and some value means millisecond
-# cv2.waitKey(0)
+cv2.waitKey(0)
 
 #to capture videos, videocapture is used and it takes path as an argument 
 
-# cap = cv2.VideoCapture("images/tech.mp4")
+cap = cv2.VideoCapture("images/tech.mp4")
 
 #to read the webcames we can use 0,1,2.. as an argument if there is only one camera 0 is used
 cap = cv2.VideoCapture(0)
